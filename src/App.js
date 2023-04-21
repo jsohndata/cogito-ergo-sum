@@ -11,15 +11,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     {/* <HeroBanner /> */}
-     <About />
-     <Quote />
-     <Grid />
-     <PictCarousel />
-     <Video />
-     <Footer />
-    </div>
+    <>
+      {/* <HeroBanner /> */}
+      <About />
+      <Quote />
+      <Grid />
+      <PictCarousel />
+      <Video />
+      <Footer />
+    </>
   );
 }
 
