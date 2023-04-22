@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cogito-ergo-sum/static/css/main.2722db1b.css",
-    "main.js": "/cogito-ergo-sum/static/js/main.018fb78f.js",
+    "main.js": "/cogito-ergo-sum/static/js/main.6e1a6d2d.js",
     "static/media/bg.webp": "/cogito-ergo-sum/static/media/bg.7463507ce7de2ea05d05.webp",
     "index.html": "/cogito-ergo-sum/index.html",
     "main.2722db1b.css.map": "/cogito-ergo-sum/static/css/main.2722db1b.css.map",
-    "main.018fb78f.js.map": "/cogito-ergo-sum/static/js/main.018fb78f.js.map"
+    "main.6e1a6d2d.js.map": "/cogito-ergo-sum/static/js/main.6e1a6d2d.js.map"
   },
   "entrypoints": [
     "static/css/main.2722db1b.css",
-    "static/js/main.018fb78f.js"
+    "static/js/main.6e1a6d2d.js"
   ]
 }
