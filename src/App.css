@@ -1,16 +1,19 @@
 :root {
-  --color-light: #f4f5f6;
+  --color-light: #f4f5f6b3;
+  --color-dark: #232323;
+  --color-main: purple;
+  --drop-shaodw: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.513));
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, q {
   font-family: 'Roboto Slab', serif;
 }
 
 body {
   background-color: #ccc;
-  background-image: url("https://images.pexels.com/photos/13031765/pexels-photo-13031765.jpeg");
+  background-image: url("/public/images/bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,17 +22,33 @@ body {
 
 main img {
   background: linear-gradient(to right, darkblue, darkorchid) border-box;
-  border: 7px double transparent;
-  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.513));
+  border: 10px solid transparent;
+  filter: var(--drop-shaodw);
 }
 
+
 main p {
-  font-size: clamp(1.0rem, 4vw, 1.5rem);
+  font-size: clamp(1.3rem, 4vw, 1.4rem);
+  font-weight: 600;
+  color: var(--color-light);
+}
+
+main p > span {
+  color: var(--color-main);
+}
+
+main img, 
+main span {
+  cursor: pointer;
+}
+
+p {
+  font-size: clamp(1.0rem, 4vw, 1.2rem);
   color: var(--color-light);
 }
 
 h1 {
-  font-size: clamp(3rem, 4vw, 5rem);
+  font-size: clamp(3rem, 4vw, 4rem);
   font-weight: 900;
 }
 
@@ -37,13 +56,22 @@ h2 {
   font-weight: 700;
 }
 
+
+.main-container {
+  margin: 0px 20px;
+}
+
 .container {
- padding: 40px 
+ padding: 40px;
 }
 
 .carousel-container {
   padding: 15px;
 } 
+
+.quote-container {
+  margin: 90px 0px;  
+}
 
 .quote-container p {
   font-size: clamp(23px, 4vw, 26px);
@@ -51,13 +79,60 @@ h2 {
 }
 
 .quote-container q {
-  font-size: 105%;
+  font-size: clamp(3rem, 4vw, 5rem);
 }
 
 .grid-container {
-  background-color:salmon;
+  background-color:rgba(231, 73, 223, 0.497);
+  border: 10px solid rgba(0, 0, 139, 0.127);
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.93));
 }
 
 .grid-container h2 {
-  color: white;
+  color: var(--color-light);
+  margin-bottom: 20px;
+}
+
+.video-container iframe  {
+  background: linear-gradient(to right, darkblue, darkorchid) border-box;
+  border: 10px solid transparent;
+  filter: var(--drop-shaodw);
+}
+
+footer a:link,
+footer a:visited {
+  color: var(--color-dark);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.button-effect {
+  display: block;
+  transform: scale(1.0);
+  transition: transform 0.23s ease-in-out;
+}
+
+.button-effect:hover {
+  transform: scale(1.13);
+  filter: drop-shadow(0 0 10px rgba(0, 5, 9, 0.319));
+}
+
+#mozarts-ghost {
+  position: fixed;
+  opacity: 1;
+  bottom: 0;
+  left: 10px;
+  padding: 10px;
+}
+
+#mozarts-ghost a:link,
+#mozarts-ghost a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#mozarts-ghost a:hover {
+  color: rgb(195, 0, 255);
 }

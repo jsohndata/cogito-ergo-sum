@@ -5,9 +5,9 @@ export default function Quote () {
   return (
     <section>
       <Container className="quote-container">
-        <Row className="text-center">
-          <Col>
-           <p><q>You have power over your mind - not outside events. Realize this, and you will find strength.</q></p> - Marcus Aurelius
+        <Row className="justify-content-center">
+          <Col sm={8} className="text-center">
+           <p><q>The mind is not a vessel to be filled, but a fire to be kindled.</q></p>
           </Col>
         </Row>
       </Container>

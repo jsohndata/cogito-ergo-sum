@@ -5,20 +5,20 @@ export default function Grid () {
   return (
     <section>
       <Container className="grid-container">
-        <Row>
+        <Row className="g-5">
           <Col sm={12} md={4}>
             <h2 className="text-center">Why BocaCode?</h2>
-            <p>I'm sorry, but I'm not sure what you are referring to when you say "bocacode." Could you please provide more context or information so I can better understand your question and provide a helpful response?</p>
+            <p>Being a software engineer allows individuals to harness the power of technology and use it to create innovative solutions to complex problems in order to develop new ways to make people's lives easier and more efficient.</p>
           </Col>
 
           <Col sm={12} md={4}>
             <h2 className="text-center">Exciting Project?</h2>
-            <p>That sounds great! I'm happy to hear that you have an exciting project in mind. Can you please provide more details about your project? Knowing more about your project will allow me to provide more specific and helpful advice.</p>
+            <p>Pursuit of knowledge and understanding was essential to human happiness and flourishing. I value the practical application of scientific knowledge in improving human life.</p>
           </Col>
 
           <Col>
             <h2 className="text-center">Ideal Work Place?</h2>
-            <p>The ideal workplace can vary depending on an individual's preferences, work style, and personal values. However, here are some common factors that people often consider when thinking about their ideal workplace</p>
+            <p>An environment where intellectual inquiry, encourages ongoing learning and growth, and fosters a culture of creativity and collaboration.</p>
           </Col>
         </Row>
       </Container>
