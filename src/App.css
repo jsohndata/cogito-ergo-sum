@@ -1,8 +1,35 @@
+:root {
+  --color-light: #f4f5f6;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+}
+
 body {
   background-color: #ccc;
+  background-image: url("https://images.pexels.com/photos/13031765/pexels-photo-13031765.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main img {
+  background: linear-gradient(to right, darkblue, darkorchid) border-box;
+  border: 7px double transparent;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.513));
+}
+
+main p {
+  font-size: clamp(1.0rem, 4vw, 1.5rem);
+  color: var(--color-light);
 }
 
 h1 {
+  font-size: clamp(3rem, 4vw, 5rem);
   font-weight: 900;
 }
 
