@@ -1,6 +1,8 @@
 # Cogito Ergo Sum - React.js
-This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement "Ergo Cogito Sum" which means "I think, therefore I am."
 [![Screen Shot](./public/images/readme.webp)](https://jsohndata.github.io/cogito-ergo-sum/)
+
+This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement "Ergo Cogito Sum" which means "I think, therefore I am."
+
 <br>
 
 ## Site
