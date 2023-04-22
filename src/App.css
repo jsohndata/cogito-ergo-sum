@@ -18,6 +18,10 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+
+  transition-duration: 1.3s;
+  transition-timing-function: cubic-bezier(.97,.15,.82,.75);
+  transition-delay: 0.15s;
 }
 
 main img {
@@ -69,10 +73,6 @@ h2 {
   padding: 15px;
 } 
 
-.quote-container {
-  margin: 90px 0px;  
-}
-
 .quote-container p {
   font-size: clamp(23px, 4vw, 26px);
   font-weight: 700;
@@ -119,6 +119,14 @@ footer a:hover {
   filter: drop-shadow(0 0 10px rgba(0, 5, 9, 0.319));
 }
 
+@media (max-width: 768px) {
+  .button-effect:hover
+  {
+      transform: scale(1.0);
+      filter: none;
+  }
+}
+
 #mozarts-ghost {
   position: fixed;
   opacity: 1;
@@ -129,7 +137,7 @@ footer a:hover {
 
 #mozarts-ghost a:link,
 #mozarts-ghost a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(98, 48, 48);
   text-decoration: none;
 }
 

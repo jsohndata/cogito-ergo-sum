@@ -17,7 +17,7 @@ export default function Footer () {
               target="_blank"
               rel="noreferrer"
               className="button-effect"><small>Code in GitHub</small></a></p>
-             <p id="mozarts-ghost"><a href="https://system-overload-solution.web.app?ref=aef"
+             <p id="mozarts-ghost"><a href="https://jsohndata.github.io/kardashev-scale?ref=mzg"
               rel="noreferrer"
               alt="Click on it and press control-shift."
               title="Click on it and press control-shift."
