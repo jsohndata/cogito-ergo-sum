@@ -21,7 +21,7 @@ export default function Footer () {
               rel="noreferrer"
               alt="Click on it and press control-shift."
               title="Click on it and press control-shift."
-              target="_blank">π</a></p>
+              target="sandra">π</a></p>
           </Col>
         </Row>
       </Container>
