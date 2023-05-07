@@ -5,7 +5,7 @@ import Video from "./components/Video.jsx";
 import Footer from "./components/Footer.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (

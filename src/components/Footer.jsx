@@ -24,6 +24,11 @@ export default function Footer () {
           </Col>
         </Row>
       </Container>
+
+      <p id="mozarts-ghost"><a 
+        href="https://notiempo.lol/mozartsghost/9"
+        alt="Click on it and press control-shift."
+        title="Click on it and press control-shift.">π</a></p>
     </footer>
   )
 }
