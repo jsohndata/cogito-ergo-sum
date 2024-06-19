@@ -17,7 +17,7 @@ export default function Footer () {
               target="_blank"
               rel="noreferrer"
               className="button-effect"><small>Code in GitHub</small></a></p>
-             <p id="mozarts-ghost"><a href="https://notiempo.lol/mozartsghost/9"
+             <p id="mozarts-ghost"><a href="https://jsohndata.github.io/no-tiempo/mozartsghost?id=9"
               rel="noreferrer"
               alt="Click on it and press control-shift."
               title="Click on it and press control-shift.">π</a></p>
