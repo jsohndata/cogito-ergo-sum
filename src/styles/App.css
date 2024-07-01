@@ -126,21 +126,3 @@ footer a:hover {
       filter: none;
   }
 }
-
-#mozarts-ghost {
-  position: fixed;
-  opacity: 1;
-  bottom: 0;
-  left: 10px;
-  padding: 10px;
-}
-
-#mozarts-ghost a:link,
-#mozarts-ghost a:visited {
-  color: rgb(98, 48, 48);
-  text-decoration: none;
-}
-
-#mozarts-ghost a:hover {
-  color: rgb(195, 0, 255);
-}
